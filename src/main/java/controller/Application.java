@@ -46,7 +46,7 @@ public class Application {
         // 결과 검색
         String search = Input.searchResult();
         if (search.equalsIgnoreCase("all")) {
-            // 모든 참가자의 결과 출력T
+            // 모든 참가자의 결과 출력
             Output.printAllResults(participants);
         }
         if (! search.equalsIgnoreCase("all")) {
